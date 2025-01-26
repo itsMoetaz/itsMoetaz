@@ -24,8 +24,7 @@
 ###
 
 <div align="left">
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 </div>
 
 ###
