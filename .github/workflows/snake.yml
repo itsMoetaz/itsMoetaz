@@ -20,12 +20,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # Step 2: Filter contributions for the last 7 months
-      - name: Filter Contributions
-        run: |
-          git log --since="$(date --date='7 months ago' '+%Y-%m-%d')" --format='%h %ad %s' > filtered_commits.log
-
-      # Step 3: Generate the snake animations
+      # Step 2: Generate the snake animations for the last 12 months
       - name: Generate GitHub Contributions Snake Animations
         uses: Platane/snk@v3
         with:
@@ -34,10 +29,12 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+          # Limiting the contribution data to the last 12 months
+          range: "1 year"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 4: Deploy the generated files to the 'output' branch
+      # Step 3: Deploy the generated files to the 'output' branch
       - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v3
         with:
