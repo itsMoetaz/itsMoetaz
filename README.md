@@ -1,4 +1,6 @@
 # 💫 About Me:
+<img align="right" height="155" src="https://64.media.tumblr.com/11f521866b3ec17c9ba57c998962d6b7/tumblr_olysppgDT71w0ii2ho1_500.gifv"  />
+
 👋 Hello world ! this is Moetaz from Tunisia
 <br>👨‍💻 Computer Engineer | Full-Stack Developer
 <br>🚀 I'm working on: Building a full-stack MERN application
@@ -14,17 +16,15 @@
 
 ###
 
-<div align="left">
-</div>
+
 
 ###
 
-<img align="right" height="155" src="https://64.media.tumblr.com/11f521866b3ec17c9ba57c998962d6b7/tumblr_olysppgDT71w0ii2ho1_500.gifv"  />
 
 ###
 
-<div align="left">
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Quote">
 </div>
 
 ###
